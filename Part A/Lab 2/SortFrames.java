@@ -1,8 +1,6 @@
 import java.util.*;
-import java.io.*;
-import java.net.*;
 
-public class P1 {
+public class SortFrames {
     public static void main(String[] args) {
         ArrayList<int[]> frames= new ArrayList<>();
         Random random=new Random();
@@ -34,6 +32,7 @@ public class P1 {
         for(int[] frame:frames){
             System.out.printf("%d : %d\n",frame[0], frame[1]);
         }
+        sc.close();
     }    
 }
 
