@@ -6,7 +6,7 @@ import java.io.*;
     {
        public static void main(String[] args) throws Exception
        {
-         Socket socket=new Socket("127.0.01", 4000);
+         Socket socket=new Socket("127.0.0.1", 4000);
           System.out.println("Enter the filename");
 
          BufferedReader keyRead=new BufferedReader(new InputStreamReader(System.in));
