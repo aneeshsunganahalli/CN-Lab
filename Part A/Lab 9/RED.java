@@ -22,6 +22,7 @@ public class RED {
         int threshold = scanner.nextInt();
 
         simulateCongestion(maxPackets, queueSize, maxProbability, minProbability, threshold);
+        scanner.close();
     }
 
     private static void simulateCongestion(int maxPackets, int queueSize, double maxProbability, double minProbability, int threshold) {
