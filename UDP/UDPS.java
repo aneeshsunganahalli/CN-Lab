@@ -3,6 +3,7 @@
 
 // Server side
 
+package UDP;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
